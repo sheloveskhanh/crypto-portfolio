@@ -1,0 +1,155 @@
+.portfolio {
+  padding: 20px;
+  padding-top: 200px;
+}
+
+.portfolio-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.balance {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.unrealized-pnl {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profit-loss {
+  margin-left: 10px;
+}
+
+.profit-loss.up {
+  color: #00D515;
+}
+
+.profit-loss.down {
+  color: #ff4646;
+}
+
+.crypto-table2 {
+  min-width: 800px;
+  margin: auto;
+  background: linear-gradient(rgba(84,3,255,0.15), rgba(150,2,153,0.15));
+  border-radius: 15px !important;
+}
+
+.table-layout2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  padding: 10px;
+  align-items: center;
+  border-bottom: 1px solid #3c3c3c;
+}
+
+.table-layout2.header {
+  font-weight: bold;
+}
+
+.table-layout2 p {
+  margin: 0;
+}
+
+.table-layout2 .amount-header {
+  text-align: right; 
+}
+
+.table-layout2 .action-header {
+  text-align: center; 
+}
+
+.table-layout2 .delete-header {
+  text-align: center; 
+}
+
+.table-layout2 div {
+  display: flex;
+  align-items: center;
+}
+
+.table-layout2 img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.table-layout2 .right-align{
+  text-align: center; 
+}
+
+.table-layout2 button {
+  width: 40px; 
+  height: 40px; 
+  padding: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none; 
+  background: none; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.table-layout2 .remove-button{
+  width: 40px; 
+  height: 40px; 
+  padding: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none; 
+  background: none; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: white;
+}
+
+.table-layout2 .remove-button:hover{
+  color: rgb(255, 0, 30);
+}
+
+.action2-button {
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.action2-button:hover {
+  color: #45a049;
+}
+.crypto-table2 {
+  overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+  .table-layout2 {
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    font-size: 14px;
+  }
+
+  .table-layout2 p {
+    overflow-wrap: break-word;
+    font-size: 14px;
+  }
+
+  .market-cap {
+    display: none;
+  }
+}

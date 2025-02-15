@@ -1,0 +1,125 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+  background-color: #1a1a1a; 
+  color: #ddd;
+  border-bottom: 2px solid #3c3c3c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1000; 
+}
+
+.navbar img {
+  height: auto;
+  width: 150px;
+}
+
+.text-container .logo-text {
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  color: #fff; 
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  cursor: pointer;
+  font-size: 16px; 
+  font-weight: 500; 
+  transition: color 0.3s ease; 
+}
+
+.navbar ul li:hover {
+  color: #fff;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-right select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #1e1e2f;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.nav-right select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Register and Login Buttons */
+.register, .login-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.register {
+  background: #28a745;
+  color: white;
+}
+
+.register:hover {
+  background: #218838;
+}
+
+.login-button {
+  background: #007bff;
+  color: white;
+}
+
+.login-button:hover {
+  background: #0056b3;
+}
+
+/* Logout Button */
+.logout-button {
+  background: #dc3545;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.logout-button:hover {
+  background: #c82333;
+}
+
+/* User Email Styling */
+.user-email {
+  font-size: 14px;
+  color: #fff;
+  margin-right: 10px;
+}

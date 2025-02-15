@@ -1,0 +1,23 @@
+.password-container .show-password-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%); /* Center the icon vertically */
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #000000;
+  font-size: 22px; /* Make the icon visible */
+}
+
+.password-container .show-password-btn:hover {
+  color: #0056b3;
+}
+
+.password-container .show-password-btn:hover,
+.password-container .show-password-btn:focus,
+.password-container .show-password-btn:active {
+  outline: none;
+  border: none;
+  background: none;
+}
